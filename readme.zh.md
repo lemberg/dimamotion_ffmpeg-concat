@@ -181,6 +181,13 @@ const transitions = [
 
 音频文件的路径或URL,用作 输出视频 的音轨.
 
+##### args
+
+类型: `Array<String>`
+**必需**
+
+默认值: `['-c:v', 'libx264', '-profile:v', 'main', '-preset', 'medium', '-crf 20', '-movflags', 'faststart']`
+
 ##### frameFormat
 
 类型: `string`默认: `raw`
@@ -241,3 +248,5 @@ const transitions = [
 ## 执照
 
 麻省理工学院©[Travis Fischer](https://github.com/transitive-bullshit)
+
+Support my OSS work by <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>
